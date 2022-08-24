@@ -35,7 +35,7 @@ function getWinner(array $board): int|null {
   if ($board[0][0] === $board[1][1] && $board[1][1] === $board[2][2] && $board[2][2] === $board[3][3] && $board[0][0] !== null) {
     $winner = $board[0][0];
   }
-  
+
   if ($board[0][3] === $board[1][2] && $board[1][2] === $board[2][1] && $board[2][1] === $board[3][0] && $board[3][0] !== null) {
     $winner = $board[0][3];
   }
