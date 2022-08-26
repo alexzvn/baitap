@@ -9,6 +9,7 @@
  * 
  * input:
  * 
+ * 
  * $board = [
  *   [1,0,null,0],
  *   [1,0,null,1],
@@ -21,5 +22,15 @@
 
 function is_valid(array $board): bool {
 
-  return false;
+  $x = 0;
+  $o = 0;
+
+  foreach ($board as $row) {
+    foreach ($row as $value) {
+      $x += ($value === 1) ? 1 : 0;
+      $o += ($value === 0) ? 1 : 0;
+    }
+  }
+
+  return $x >= $o;
 }
