@@ -3,17 +3,18 @@
 quản lý học sinh
   - id
   - tên
-  - điểm trung bình
+  - điểm
   - môn học (danh sách các môn đang học)
 
-chức năng cần có:
+chức năng bắt buộc:
   - Thêm
   - Sửa
   - Xoá
   - Xem
 
-Chức năng nâng cao:
+Chức năng thêm:
   - tự động lưu (tuỳ chọn)
+  - lưu data
   - xuất file
   - nhập file
 
@@ -28,6 +29,7 @@ Chức năng nâng cao:
  *  -> 1: thêm mới -> nhập thông tin -> thêm mới -> quay về menu
  *  -> 2: xoá -> nhập id -> confirm -> xoá -> menu
  *  -> 0: thoát chương trình
+ *  ->...
  */
 ```
 
