@@ -13,7 +13,7 @@ chức năng cần có:
   - Xem
 
 Chức năng nâng cao:
-  - tự động lưu
+  - tự động lưu (tuỳ chọn)
   - xuất file
   - nhập file
 
@@ -30,3 +30,13 @@ Chức năng nâng cao:
  *  -> 0: thoát chương trình
  */
 ```
+
+## Coding yêu cầu bắt buộc
+
+- Làm việc với json
+- Làm việc với file
+- Chia code ra nhiều file
+- Đóng gói code vào function khác nhau
+
+## Coding yêu cầu tuỳ chọn
+- coding style, (đặt biến, khoảng cách giữa block code)
